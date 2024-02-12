@@ -1,7 +1,7 @@
 # Performance.
-[beyond_good_and_evil.epub](https://github.com/skyneton/epublib-for-android/blob/main/assets/beyond_good_and_evil.epub?raw=true)
+[beyond_good_and_evil.epub](https://github.com/skyneton/epublib-for-android/blob/main/assets/beyond_good_and_evil.epub)
 
-![performance](https://github.com/skyneton/epublib-for-android/blob/main/assets/performance.png?raw=true)
+![performance](https://raw.githubusercontent.com/skyneton/epublib-for-android/main/assets/performance.png)
 
 # Try It.
 [PlayStore](https://play.google.com/store/apps/details?id=net.mpoisv.textreader)
