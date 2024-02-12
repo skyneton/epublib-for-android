@@ -6,6 +6,26 @@
 # Try It.
 [PlayStore](https://play.google.com/store/apps/details?id=net.mpoisv.textreader)
 # How to?
+# Implementation
+```kotlin
+// settings.gradle
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        ...
+        maven("https://jitpack.io")
+    }
+}
+```
+```kotlin
+//build.gradle
+dependencies {
+    ...
+    implementation("com.github.skyneton:epublib-for-android:v1.0")
+    ...
+}
+```
+
 ```kotlin
 val epub = Epub(File(path), cacheDirectory, parseNow = true)
 /* parseNow is optional. defult is true. */
