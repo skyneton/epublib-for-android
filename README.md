@@ -6,7 +6,7 @@
 # Try It.
 [PlayStore](https://play.google.com/store/apps/details?id=net.mpoisv.textreader)
 # How to?
-# Implementation
+### Implementation
 ```kotlin
 // settings.gradle
 dependencyResolutionManagement {
@@ -26,6 +26,7 @@ dependencies {
 }
 ```
 
+### Load Epub
 ```kotlin
 val epub = Epub(File(path), cacheDirectory, parseNow = true)
 /* parseNow is optional. defult is true. */
