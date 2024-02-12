@@ -58,7 +58,7 @@ afterEvaluate {
 
             groupId = "com.github.skyneton"
             artifactId = "epublib"
-            version = "1.0"
+            version = "1.0.0"
         }
     }
 }
